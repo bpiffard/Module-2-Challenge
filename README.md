@@ -6,7 +6,7 @@ The goal of this project was to analyze the success of a small number of green e
 ![2017 Data](https://github.com/bpiffard/Module-2-Challenge/blob/main/Resources/2017%20Output.png)
 ![2018 Data](https://github.com/bpiffard/Module-2-Challenge/blob/main/Resources/2018%20Output.png)
 
-While two of the stocks continued to show a strong, postiive return in 2018, the majority of them showed losses in 2018. The stocks that continued to rise were ENPH and RUN. One stock, TERP, showed a loss on invenstment in 2017 and 2018. Unfortunately for the clients, the DQ stock showed a loss of 62.6% in 2018, when it had gained 199.4% in 2017. Overall, it's likely that the stock was still a relative gain for the clients. It would be best if we did an analysis on the return for the beginning of 2-17 and the end of 2018 to know if, overall, what the return for this investment is. It is unclear is 2018 was bad for the stock market in general, or just green energy stocks.
+While two of the stocks continued to show a strong, positive return in 2018, the majority of them showed losses in 2018. The stocks that continued to rise were ENPH and RUN. One stock, TERP, showed a loss on invenstment in 2017 and 2018. Unfortunately for the clients, the DQ stock showed a loss of 62.6% in 2018, when it had gained 199.4% in 2017. Overall, it's likely that the stock was still a relative gain for the clients. It would be best if we did an analysis on the return for the beginning of 2-17 and the end of 2018 to know if, overall, what the return for this investment is. It is unclear is 2018 was bad for the stock market in general, or just green energy stocks.
 ### Comparing Code Efficiency
 Here is the time it took the original data to run:
 
@@ -20,9 +20,9 @@ Here is the time it took the refactored data to run:
 
 ![2018 Analysis, time spent, refactored code](https://github.com/bpiffard/Module-2-Challenge/blob/main/Resources/2018%20Anaylsis.png)
 
-The refactored code worked 0.4453125 seconds faster than the original for the 2017 analysis
+The refactored code worked 0.4453125 seconds faster than the original for the 2017 analysis. That is a 80.28% reduction in runtime. This is significant in relative terms for sure, but with this data set, is not much of a practical difference.
 
-The refactored code worked 0.546875 seconds faster than the original for the 2018 analysis
+The refactored code worked 0.546875 seconds faster than the original for the 2018 analysis. That is a 81.40% reduction in runtime I would interpret this change the same as for the above.
 
 ## Summary
 ### Advantages and Disadvantages of Refactoring
